@@ -1,0 +1,10 @@
+/opt
+/pkg
+/src
+/usr
+*.log
+*.gz
+*.zst
+
+*.deb
+debian-binary
