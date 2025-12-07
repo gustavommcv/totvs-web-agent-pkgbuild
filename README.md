@@ -63,7 +63,7 @@ makepkg -fsi
 
 ---
 
-# Ativando o Certificado do Web Agent no Navegador
+## Ativando o Certificado do Web Agent no Navegador
 
 O Web Agent utiliza um **certificado self-signed embutido no binário**.  
 O navegador **não confia automaticamente**, então você **PRECISA autorizar o certificado** para que o Protheus WebApp funcione sem erro.
