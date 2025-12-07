@@ -4,7 +4,11 @@ pkgrel=1
 pkgdesc="TOTVS Web Agent para integração com Protheus."
 arch=('x86_64')
 license=('custom')
-depends=('glibc')
+depends=(
+    'glibc'
+    'libappindicator-gtk3'
+    'libindicator-gtk3'
+)
 source=(
     "web-agent-linux-x64.deb"
     "web-agent.ini"
