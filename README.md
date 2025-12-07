@@ -47,7 +47,7 @@ git clone https://github.com/gustavommcv/totvs-web-agent-pkgbuild.git
 cd totvs-web-agent-pkgbuild
 ```
 
-### 2. Coloque o arquivo .deb no diretório
+### 2. Coloque o arquivo .deb do web agent no diretório
 
 O arquivo deve se chamar:
 
