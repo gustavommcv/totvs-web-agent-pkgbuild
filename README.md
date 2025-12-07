@@ -63,6 +63,42 @@ makepkg -fsi
 
 ---
 
+# Ativando o Certificado do Web Agent no Navegador
+
+O Web Agent utiliza um **certificado self-signed embutido no binário**.  
+O navegador **não confia automaticamente**, então você **PRECISA autorizar o certificado** para que o Protheus WebApp funcione sem erro.
+
+Sem aceitar o certificado, você verá erros como:
+
+```
+net::ERR_CERT_AUTHORITY_INVALID
+Firefox can’t establish a connection to the server at wss://127.0.0.1:21021/agent
+```
+
+
+### ✅ Como ativar o certificado
+
+Abra no seu navegador:
+```
+https://127.0.0.1:21021
+```
+
+O navegador exibirá uma tela de segurança.
+
+Clique em:
+
+- **Firefox:**  
+  ➤ *Avançado* → *Aceitar o risco e continuar*
+
+- **Chrome / Brave / Edge:**  
+  ➤ *Avançado* → *Ir para 127.0.0.1 (não seguro)*
+
+Após aceitar, o navegador criará uma exceção permanente de confiança.
+
+### 📌 Você só precisa fazer isso UMA vez.
+
+--- 
+
 ## Comandos úteis
 
 Verificar se está rodando
