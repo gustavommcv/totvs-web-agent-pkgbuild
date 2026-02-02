@@ -1,6 +1,6 @@
 # TOTVS Web Agent — PKGBUILD para Arch Linux
 
-Este repositório contém um **PKGBUILD totalmente funcional** para instalar o **TOTVS Web Agent** no Arch Linux e derivados (Manjaro, Omarchy, EndeavourOS, CachyOS, etc.) usando o `makepkg` ou qualquer AUR helper.
+Este repositório contém um **PKGBUILD** para instalar o **TOTVS Web Agent** no Arch Linux e derivados (Manjaro, Omarchy, EndeavourOS, CachyOS, etc.) usando o `makepkg`r.
 
 O Web Agent é utilizado por aplicações TOTVS para comunicação segura entre o navegador e o ambiente local por meio de WebSocket (`wss://127.0.0.1:21021/agent`).
 
@@ -13,7 +13,6 @@ O Web Agent é utilizado por aplicações TOTVS para comunicação segura entre 
 - Instala `.desktop`, ícones e documentação
 - Gera pacote `totvs-web-agent` e `totvs-web-agent-debug`
 - Inclui e instala `web-agent.ini`
-- 100% compatível com o ecossistema Arch
 
 ---
 
@@ -137,4 +136,3 @@ Os binários e certificados do Web Agent pertencem à TOTVS.
 ## Contribuições
 
 Contribuições são bem-vindas!
-Issues e PRs podem ser abertos livremente.
