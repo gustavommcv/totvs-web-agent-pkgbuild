@@ -1,6 +1,6 @@
 pkgname=totvs-web-agent
 pkgver=1.0.0
-pkgrel=1
+pkgrel=2
 pkgdesc="TOTVS Web Agent para integração com Protheus."
 arch=('x86_64')
 license=('custom')
@@ -33,6 +33,7 @@ package() {
     #
     install -d "$pkgdir/opt/web-agent"
     cp -r "$srcdir/opt/web-agent/"* "$pkgdir/opt/web-agent/"
+    chmod 755 "$pkgdir/opt/web-agent/printer"
 
     #
     # 4 — Substituir o arquivo de configuração web-agent.ini
